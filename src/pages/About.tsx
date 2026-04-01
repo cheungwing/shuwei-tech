@@ -1,4 +1,4 @@
-import { Target, Eye, Award, Users, TrendingUp, Lightbulb, Handshake, ShieldCheck, Medal, Cpu, Utensils } from 'lucide-react';
+import { Target, Eye, Users, TrendingUp, Lightbulb, Handshake, ShieldCheck, Medal, Cpu, Utensils } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import SEO from '../components/SEO';
 
