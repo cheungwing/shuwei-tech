@@ -1,0 +1,50 @@
+# Robots.txt for 数味科技
+# https://www.shuweitech.com/
+
+User-agent: *
+Allow: /
+Allow: /about
+Allow: /products
+Allow: /solutions
+Allow: /contact
+
+# Sitemap
+Sitemap: https://www.shuweitech.com/sitemap.xml
+
+# 禁止爬取的路径
+Disallow: /api/
+Disallow: /admin/
+Disallow: /*.json$
+Disallow: /*.js$
+Disallow: /*.css$
+
+# 爬虫延迟（可选）
+# Crawl-delay: 1
+
+# 百度
+User-agent: Baiduspider
+Allow: /
+
+# 搜狗
+User-agent: Sogou web spider
+Allow: /
+
+# 360
+User-agent: 360Spider
+Allow: /
+
+# Google
+User-agent: Googlebot
+Allow: /
+User-agent: Googlebot-Image
+Allow: /images/
+User-agent: Googlebot-News
+Allow: /news/
+
+# Bing
+User-agent: Bingbot
+Allow: /
+
+# Apple
+User-agent: Applebot
+Allow: /
